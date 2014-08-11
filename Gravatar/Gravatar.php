@@ -80,8 +80,11 @@ class Gravatar	{
 	public function img( $atts = array(), $secure = false )	{
 
 		$result	=	'<img src="' . $this->url( $secure ) . '"';
-		foreach ( $atts as $key => $val )
-			$result .= ' ' . $key . '="' . $val . '"';
+
+		if( is_array( $atts ) )	{
+			foreach ( $atts as $key => $val )
+				$result .= ' ' . $key . '="' . $val . '"';
+		}
 		$result .= ' />';
 
 		return $result;

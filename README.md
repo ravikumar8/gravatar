@@ -1,13 +1,13 @@
 # Gravatar #
 
 [![Author](http://img.shields.io/badge/author-@ravikumar8-blue.svg?style=flat-square)](https://twitter.com/ravikumar8)
-[![Source Code](https://img.shields.io/badge/source-macho-blue.svg?style=flat-square)](https://github.com/ravikumar8/Gravatar)
-[![Latest Version](https://img.shields.io/badge/github-release-blue.svg?style=flat-square)](https://github.com/ravikumar8/Gravatar/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://travis-ci.org/ravikumar8/macho.svg?branch=master&style=flat-square)](https://travis-ci.org/ravikumar8/Gravatar)
-[![Code Coverage](https://scrutinizer-ci.com/g/ravikumar8/Gravatar/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/ravikumar8/Gravatar/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ravikumar8/Gravatar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ravikumar8/Gravatar/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/league/plates.svg?style=flat-square)](https://packagist.org/packages/league/plates)
+[![Source Code](https://img.shields.io/badge/source-gravatar-blue.svg?style=flat-square)](https://github.com/ravikumar8/gravatar)
+[![Latest Version](https://img.shields.io/badge/github-release-blue.svg?style=flat-square)](https://github.com/ravikumar8/gravatar/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/ravikumar8/gravatar/blob/master/LICENSE)
+[![Build Status](https://scrutinizer-ci.com/g/ravikumar8/gravatar/badges/build.png?b=master&style=flat-square)](https://scrutinizer-ci.com/g/ravikumar8/gravatar/build-status/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/ravikumar8/gravatar/badges/coverage.png?b=master&style=flat-square)](https://scrutinizer-ci.com/g/ravikumar8/gravatar/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ravikumar8/gravatar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ravikumar8/gravatar/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/league/plates.svg?style=flat-square)](https://packagist.org/packages/ravikumar8/gravatar)
 
 Gravatar url, image and profile data
 

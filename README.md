@@ -11,4 +11,10 @@
 
 Gravatar url, image and profile data
 
+A small library intended to provide easy integration of... Gravatar :)
+
+It will help you generate the URL for Gravatar images and also provide img tag as well as user profile data in json, xml, php, vcf or qr format.
+
+### Highlights
+
 Thanks! :sparkling_heart:

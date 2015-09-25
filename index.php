@@ -2,44 +2,30 @@
 
 	/**
 	 * This file is only used for demo purpose.
-	 * 
+	 *
 	 * @package 	Gravatar
 	 * @author 		Ravi Kumar
-	 * @version 	0.1.0    
+	 * @version 	0.1.0
 	 * @copyright 	Copyright (c) 2014, Ravi Kumar
 	 * @license 	https://github.com/ravikumar8/Gravatar/blob/master/LICENSE MIT
 	 **/
 
-	// Register a simple autoload function
-	spl_autoload_register(function($className){
-	    
-		$className		=	ltrim($className, '\\');
-    	$fileName  		= 	'';
-    	$namespace 		= 	'';
-	    if ($lastNsPos = strrpos($className, '\\')) {
-	        $namespace = substr($className, 0, $lastNsPos);
-	        $className = substr($className, $lastNsPos + 1);
-	        $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;
-	    }
-	    $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
-
-	    require_once( $fileName );
-	});
+	include_once 'vendor/autoload.php';
 
 	$email		=	'webloper@gmail.com';
 
 	$gravatar 	=	new \Gravatar\Gravatar( $email );
- 
+
  	$url 		=	$gravatar->setSize(200)->url();
 
  	$profile 	=	$gravatar->profile('xml');
-	
+
 	$name = 'Gravatar Image';
 	$xml = $profile->xpath( '//entry/name/formatted' );
 	if ( is_array( $xml ) && isset( $xml[0] ) )
 		$name = (string) $xml[0];
 
- 	$img 		=	$gravatar->img( array( 'alt' => $name ) ); 	
+ 	$img 		=	$gravatar->img( array( 'alt' => $name ) );
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +37,7 @@
 			.comments { width: 100%; }
 			.comment { padding: 10px 10px 0 10px; }
 			.comment:after { content: ' '; display: table; clear: both; }
-			.comment-image { width: 65px; } 
+			.comment-image { width: 65px; }
 			.comment-image img { width: 50px; border-radius: 50px; }
 			.comment-image, .comment-body { float: left; }
 			.comment-body { width: 80%; }
@@ -61,7 +47,7 @@
 		</style>
 	</head>
 	<body>
- 
+
  		<div class="comments">
 			<div class="comment">
 				<div class="comment-image">

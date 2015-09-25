@@ -1,5 +1,5 @@
 {
-    "name": "RaviKumar8/Gravatar",
+    "name": "ravikumar8/Gravatar",
     "autoload": {
         "psr-4": {
             "Gravatar\\": "src/"

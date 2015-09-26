@@ -165,8 +165,6 @@ class Gravatar
     {
 
         $default_methods    =    array( 'setSize', 'setRating', 'setDefault', 'setForceDefault' );
-        //$default_ratings    =    array( 'g', 'pg', 'r', 'x' );
-        //$default_images     =    array( '404', 'mm', 'identicon', 'monsterid', 'wavatar', 'retro', 'blank' );
 
         if(in_array($method, $default_methods) ) {
 

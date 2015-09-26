@@ -1,6 +1,7 @@
 {
     "name": "ravikumar8/gravatar",
     "description" : "A small library intended to provide easy integration of... Gravatar :)",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Gravatar\\": "src/"
